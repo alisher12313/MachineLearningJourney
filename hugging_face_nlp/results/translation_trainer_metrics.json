@@ -1,0 +1,54 @@
+{
+  "method": "Seq2SeqTrainer (fp16)",
+  "model": "Helsinki-NLP/opus-mt-en-fr",
+  "baseline_before_training": {
+    "eval_loss": 2.2804,
+    "bleu": 39.39
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.1128,
+      "eval_loss": 1.0507,
+      "bleu": 51.35,
+      "eval_minutes": 8.6
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8985,
+      "eval_loss": 0.9789,
+      "bleu": 52.81,
+      "eval_minutes": 7.1
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.8175,
+      "eval_loss": 0.9606,
+      "bleu": 53.35,
+      "eval_minutes": 6.9
+    }
+  ],
+  "total_minutes": 0.0,
+  "sample_translations": [
+    {
+      "en": "Default to expanded threads",
+      "fr": "Par défaut, développer les fils de discussion"
+    },
+    {
+      "en": "Show the toolbar",
+      "fr": "Afficher la barre d' outils"
+    },
+    {
+      "en": "Unable to import %1 using the OFX importer plugin. This file is not the correct format.",
+      "fr": "Impossible d'importer %1 en utilisant le module externe d'importation OFX. Ce fichier n'est pas le bon format."
+    },
+    {
+      "en": "Save the current document",
+      "fr": "Enregistrer le document actuel"
+    },
+    {
+      "en": "Open a new window",
+      "fr": "Ouvrir une nouvelle fenêtre"
+    }
+  ]
+}

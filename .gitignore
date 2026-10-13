@@ -1,0 +1,12 @@
+# model outputs / checkpoints (models live on the Hugging Face Hub, not GitHub)
+checkpoint-*/
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+hugging_face_nlp/marian-finetuned-*/
+
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
