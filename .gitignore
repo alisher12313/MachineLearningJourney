@@ -10,3 +10,6 @@ hugging_face_nlp/marian-finetuned-*/
 .DS_Store
 .ipynb_checkpoints/
 __pycache__/
+
+# training output of the codeparrot notebook (model lives on the HF Hub)
+hugging_face_nlp/codeparrot-ds/
